@@ -1,0 +1,492 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/uemotokiou/Documents/ゲーム制作/チャリ走トレース
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61490
+Successfully changed project path to: /Users/uemotokiou/Documents/ゲーム制作/チャリ走トレース
+/Users/uemotokiou/Documents/ゲーム制作/チャリ走トレース
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/uemotokiou/Documents/ゲーム制作/チャリ走トレース/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-14 20:38:40.928 Unity[79573:2550100] (null) preferred device: Apple M1 (high power)
+2021-08-14 20:38:40.928 Unity[79573:2550100] Metal devices available: 1
+2021-08-14 20:38:40.928 Unity[79573:2550100] 0: Apple M1 (high power)
+2021-08-14 20:38:40.928 Unity[79573:2550100] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56573
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001780 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.414 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 1.951041 ms (FindLiveObjects: 0.223583 ms CreateObjectMapping: 0.041958 ms MarkObjects: 1.566000 ms  DeleteObjects: 0.118625 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NCMB
+  artifactKey: Guid(9a0824e7a35c44473a768aa2632933df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB using Guid(9a0824e7a35c44473a768aa2632933df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f88c38fd7391f36712f897560db507') in 0.006125 seconds
+  Import took 0.009119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/NCMB/NCMBManager.cs
+  artifactKey: Guid(7638c4a72a58748f1aec648d1cd381f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/NCMBManager.cs using Guid(7638c4a72a58748f1aec648d1cd381f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a2acdc780771f94f7ccf4577a870a') in 0.289988 seconds
+  Import took 0.292913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002803 seconds.
+  path: Assets/NCMB/NCMBManager.cs
+  artifactKey: Guid(7638c4a72a58748f1aec648d1cd381f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/NCMBManager.cs using Guid(7638c4a72a58748f1aec648d1cd381f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a2acdc780771f94f7ccf4577a870a') in 0.002207 seconds
+  Import took 0.004810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.365288 seconds.
+  path: Assets/NCMB/NCMBSettings.cs
+  artifactKey: Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/NCMBSettings.cs using Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeb9e3e59b218f9c76728a3263d96e0') in 0.001684 seconds
+  Import took 0.004365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008114 seconds.
+  path: Assets/NCMB/NCMBSettings.cs
+  artifactKey: Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/NCMBSettings.cs using Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeb9e3e59b218f9c76728a3263d96e0') in 0.000957 seconds
+  Import took 0.003518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145602 seconds.
+  path: Assets/NCMB/PlayModeTest
+  artifactKey: Guid(d14b84d924e2e4d5c813efb15bc5258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/PlayModeTest using Guid(d14b84d924e2e4d5c813efb15bc5258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e09997eb8e86bf528c6ffd224221589') in 0.001104 seconds
+  Import took 0.004875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006211 seconds.
+  path: Assets/NCMB/PlayModeTest
+  artifactKey: Guid(d14b84d924e2e4d5c813efb15bc5258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/PlayModeTest using Guid(d14b84d924e2e4d5c813efb15bc5258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e09997eb8e86bf528c6ffd224221589') in 0.000980 seconds
+  Import took 0.004247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.932992 seconds.
+  path: Assets/NCMB/Script
+  artifactKey: Guid(236d280a8f22c4378ae87c1cd877a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/Script using Guid(236d280a8f22c4378ae87c1cd877a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf71e12346134d3f8e23777dcefec7') in 0.001909 seconds
+  Import took 0.005875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001933 seconds.
+  path: Assets/NCMB/Script
+  artifactKey: Guid(236d280a8f22c4378ae87c1cd877a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/Script using Guid(236d280a8f22c4378ae87c1cd877a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf71e12346134d3f8e23777dcefec7') in 0.000980 seconds
+  Import took 0.004428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256953 seconds.
+  path: Assets/NCMB/Script/MiniJSON.cs
+  artifactKey: Guid(3838ecbe111dc43729eff973a29abde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/Script/MiniJSON.cs using Guid(3838ecbe111dc43729eff973a29abde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b0d239ca6a11e646209a0e4cef8bac') in 0.001418 seconds
+  Import took 0.004048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004467 seconds.
+  path: Assets/NCMB/Script/MiniJSON.cs
+  artifactKey: Guid(3838ecbe111dc43729eff973a29abde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/Script/MiniJSON.cs using Guid(3838ecbe111dc43729eff973a29abde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b0d239ca6a11e646209a0e4cef8bac') in 0.001019 seconds
+  Import took 0.003569 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.881 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.4 MB.
+System memory in use after: 157.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.728417 ms (FindLiveObjects: 0.251417 ms CreateObjectMapping: 0.038458 ms MarkObjects: 2.185833 ms  DeleteObjects: 0.251875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3335.799503 seconds.
+  path: Assets/naichilab
+  artifactKey: Guid(d5c8eed5bfeab46a69e44dc6d9e82b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab using Guid(d5c8eed5bfeab46a69e44dc6d9e82b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8273ce4a8329ae552088e67e66c47ed3') in 0.005793 seconds
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406080 seconds.
+  path: Assets/naichilab/unity-simple-ranking
+  artifactKey: Guid(fbedd72c69f8b4c0886d524373cf5a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking using Guid(fbedd72c69f8b4c0886d524373cf5a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c5cdccf115233f20222def76ebaec7') in 0.001589 seconds
+  Import took 0.005784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.188815 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs
+  artifactKey: Guid(7ee33e85c1b0748db8b87606705f8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs using Guid(7ee33e85c1b0748db8b87606705f8edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ee22b82c4c40a959ec610e96abc54f') in 0.001047 seconds
+  Import took 0.004736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605604 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs/NotFoundNode.prefab
+  artifactKey: Guid(98a445350dbe3473e9e5158ac55d6e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs/NotFoundNode.prefab using Guid(98a445350dbe3473e9e5158ac55d6e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ad4444afdceea1714329bfa6bf9caa') in 0.744387 seconds
+  Import took 0.749092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs/UnavailableNode.prefab
+  artifactKey: Guid(8cfbc606367ac4d27b4a3c4b2d4646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs/UnavailableNode.prefab using Guid(8cfbc606367ac4d27b4a3c4b2d4646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ef3976986b3895a5726d31c72ee925') in 0.013591 seconds
+  Import took 0.016956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs/RankingNode.prefab
+  artifactKey: Guid(3873197bd3560499ea74f6d464f52cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs/RankingNode.prefab using Guid(3873197bd3560499ea74f6d464f52cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f24d24613a5a080667ece47a5835f3') in 0.010106 seconds
+  Import took 0.014060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs/ReadingNode.prefab
+  artifactKey: Guid(4c6a250f3c6f843ef990e40389cb6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs/ReadingNode.prefab using Guid(4c6a250f3c6f843ef990e40389cb6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02d1bace0c925d0833c24c0760fe259') in 0.009945 seconds
+  Import took 0.013465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Prefabs/RankingLoader.prefab
+  artifactKey: Guid(ee393f04960d94baeaf854699b2ae1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Prefabs/RankingLoader.prefab using Guid(ee393f04960d94baeaf854699b2ae1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360237e45f0adcbbfa7542185b51547d') in 0.006049 seconds
+  Import took 0.008633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.418801 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scripts
+  artifactKey: Guid(314dbe6c3f4ca4b7b86942c1640a049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scripts using Guid(314dbe6c3f4ca4b7b86942c1640a049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d384f88e0c5fd43e58ec71235c34f6c') in 0.001004 seconds
+  Import took 0.004684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.163453 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scripts/RankingLoader.cs
+  artifactKey: Guid(3ee1ffff0e8554589a962f4749a0222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scripts/RankingLoader.cs using Guid(3ee1ffff0e8554589a962f4749a0222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f0d64fd904dae73535e196cf253e1') in 0.002195 seconds
+  Import took 0.005163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008181 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scripts/RankingLoader.cs
+  artifactKey: Guid(3ee1ffff0e8554589a962f4749a0222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scripts/RankingLoader.cs using Guid(3ee1ffff0e8554589a962f4749a0222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f0d64fd904dae73535e196cf253e1') in 0.001046 seconds
+  Import took 0.003991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 467.707105 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scenes
+  artifactKey: Guid(1634fedb77b484d60a6966e5fb55f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scenes using Guid(1634fedb77b484d60a6966e5fb55f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28ed9843bc50e656f2d6a16aba30e3b') in 0.002742 seconds
+  Import took 0.018996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.695394 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Sample
+  artifactKey: Guid(a908c3c8bcf4548bfbd3b43a606d00b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Sample using Guid(a908c3c8bcf4548bfbd3b43a606d00b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf23c74ed5d4b1c28f7753c396cdce4') in 0.001850 seconds
+  Import took 0.005992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733430 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Sample/SampleAscRankingInfo.asset
+  artifactKey: Guid(c2cde4c6036754da3aadbe03600b5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Sample/SampleAscRankingInfo.asset using Guid(c2cde4c6036754da3aadbe03600b5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be3ae51009d32670b9327b7ec3bb68a') in 0.265883 seconds
+  Import took 0.269948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Sample/SampleDescRankingInfo.asset
+  artifactKey: Guid(00cb596a9a9034895b6f0f390a3ea18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Sample/SampleDescRankingInfo.asset using Guid(00cb596a9a9034895b6f0f390a3ea18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c26c394ae0d8c1df65ddd32bd2f2854') in 0.004256 seconds
+  Import took 0.006656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Sample/SampleRankingBoards.asset
+  artifactKey: Guid(1eb1946d621ce4a7498b323f155187b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Sample/SampleRankingBoards.asset using Guid(1eb1946d621ce4a7498b323f155187b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331ef402695fab575a06571603b5f8e1') in 0.002337 seconds
+  Import took 0.005076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.317667 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Sample/Sample.unity
+  artifactKey: Guid(1e5be826ad14f4d6ea5a02e1321ad917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Sample/Sample.unity using Guid(1e5be826ad14f4d6ea5a02e1321ad917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0c9ada7fa29452d9929c608e57156') in 0.003603 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.150098 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Settings
+  artifactKey: Guid(966178db2f3794fa39aa0f8045743158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Settings using Guid(966178db2f3794fa39aa0f8045743158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e278288131ef3a8e4d015a0b65249251') in 0.001758 seconds
+  Import took 0.005894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.123229 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Settings/RankingBoards.asset
+  artifactKey: Guid(a58623070e96d4c008c5a830529059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Settings/RankingBoards.asset using Guid(a58623070e96d4c008c5a830529059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37644f8d98f50dde263689203bef514a') in 0.003264 seconds
+  Import took 0.006650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Settings/RankingInfo.asset
+  artifactKey: Guid(449ceaf6330e5403da9a26302d942270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Settings/RankingInfo.asset using Guid(449ceaf6330e5403da9a26302d942270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513f02501f23f7f1e8b3cac973eb131f') in 0.001604 seconds
+  Import took 0.004005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210643 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Fonts
+  artifactKey: Guid(c21cfb4ed707d4e59a02a1392651098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Fonts using Guid(c21cfb4ed707d4e59a02a1392651098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c4aedf331801fc346c4e33139627be') in 0.001599 seconds
+  Import took 0.005863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059723 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Fonts/NotoSansCJKjp-Regular.otf
+  artifactKey: Guid(b1d6b3aaeae744a55bfec61baa0f9f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Fonts/NotoSansCJKjp-Regular.otf using Guid(b1d6b3aaeae744a55bfec61baa0f9f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd646feb133c2e4a8d86b197805b1dc86') in 1.121450 seconds
+  Import took 1.125578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.032452 seconds.
+  path: Assets/Scripts/RankingManager.cs
+  artifactKey: Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RankingManager.cs using Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331fe3ec8ccd3fbf8441f24db09b0df') in 0.005506 seconds
+  Import took 0.016724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000981 seconds.
+  path: Assets/Scripts/RankingManager.cs
+  artifactKey: Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RankingManager.cs using Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331fe3ec8ccd3fbf8441f24db09b0df') in 0.002492 seconds
+  Import took 0.005178 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.977 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 1.531417 ms (FindLiveObjects: 0.241667 ms CreateObjectMapping: 0.038167 ms MarkObjects: 1.148167 ms  DeleteObjects: 0.102792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.841 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 1.428875 ms (FindLiveObjects: 0.159625 ms CreateObjectMapping: 0.037250 ms MarkObjects: 1.132750 ms  DeleteObjects: 0.098458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 66.259811 seconds.
+  path: Assets/Scripts/RankingManager.cs
+  artifactKey: Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RankingManager.cs using Guid(4e821a6d5b84a4b6f805cd8c9ad87e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf42e6674d222fbf63f8243a8dee3e37') in 0.009765 seconds
+  Import took 0.012489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.456291 seconds.
+  path: Assets/Prefabs/NCMBManager.prefab
+  artifactKey: Guid(4acbb266088a045338833062583edede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NCMBManager.prefab using Guid(4acbb266088a045338833062583edede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6494bd22a05d6027ab7d953b00a448b6') in 0.072835 seconds
+  Import took 0.087518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefabs/NCMBSettings.prefab
+  artifactKey: Guid(ce1a90c7bf72049dab8ca4a87a9f865e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NCMBSettings.prefab using Guid(ce1a90c7bf72049dab8ca4a87a9f865e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811fa90341359c94735d3bde74889476') in 0.006294 seconds
+  Import took 0.008539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074857 seconds.
+  path: Assets/Prefabs/RankingManager.prefab
+  artifactKey: Guid(75fd3db6af2444184aa73ceddce53667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RankingManager.prefab using Guid(75fd3db6af2444184aa73ceddce53667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eb966ec9f6ca2575bf71b82cf19a2b') in 0.005038 seconds
+  Import took 0.008769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010507 seconds.
+  path: Assets/Prefabs/RankingManager.prefab
+  artifactKey: Guid(75fd3db6af2444184aa73ceddce53667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RankingManager.prefab using Guid(75fd3db6af2444184aa73ceddce53667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eb966ec9f6ca2575bf71b82cf19a2b') in 0.004193 seconds
+  Import took 0.007295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.977369 seconds.
+  path: Assets/Prefabs/RankingLoader.prefab
+  artifactKey: Guid(400d184761b6b41a99f1895cc7e4894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RankingLoader.prefab using Guid(400d184761b6b41a99f1895cc7e4894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf05a204fbd79a156c72622af663da49') in 0.008335 seconds
+  Import took 0.012196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.410162 seconds.
+  path: Assets/Prefabs/NCMBSettings 1.prefab
+  artifactKey: Guid(c50a42fdb1fc1417387ade4ad97e716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NCMBSettings 1.prefab using Guid(c50a42fdb1fc1417387ade4ad97e716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2387700499868524c553e62f7d7a310') in 0.004437 seconds
+  Import took 0.007713 seconds .
+
